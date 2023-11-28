@@ -16,6 +16,30 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Adjust background sizing and positioning */
+.background-image {
+    background-image: url('front.jpg'); /* Replace 'your-photo.jpg' with the path to your photo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the height of the header to the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 20px;
 }
 
 nav ul {
